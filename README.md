@@ -1,6 +1,12 @@
-# Software Architecture Case Studies
+# Software Architecture Case Studies / 企业级软件架构案例复盘
 
-This repository contains structured analyses of significant projects I have architected and led as a sole technical lead. The goal is to document real problem-solving — the constraints, the tradeoffs, and the decisions — without exposing proprietary code.
+This repository contains structured analyses of significant enterprise projects I have architected and led as a technical lead. The goal is to document real problem-solving — the constraints, tradeoffs, and engineering decisions — without exposing proprietary code.
+
+> **中文导览**：本仓库整理了两个代表性企业项目的英文架构复盘（均已脱敏），按「业务约束 → 个人职责 → 关键架构决策 → 最大挑战 → 可量化结果」结构呈现：
+> 1. **国家级农村土地管理多租户 SaaS 平台**（独立租户数据库隔离、低代码表单/流程引擎、异步电子签章解耦、统一鉴权）
+> 2. **企业内部 LLM 知识库系统**（RAG 混合检索、按章节分块、强制来源引用、检索层权限隔离与 8s → <2s 性能优化）
+>
+> 更多近期 AI 应用工程案例与可运行本地恢复样例，见 👉 [ai-application-portfolio](https://github.com/huadongpeng/ai-application-portfolio)。
 
 Each case study follows the same format: business context → my role → architectural decisions → hardest challenge → measurable outcome.
 
@@ -10,7 +16,6 @@ Each case study follows the same format: business context → my role → archit
 
 1. [National-Level Rural Land Management SaaS Platform](#case-study-1-national-level-rural-land-management-saas-platform)
 2. [Enterprise Internal Knowledge Base with LLM Integration](#case-study-2-enterprise-internal-knowledge-base-with-llm-integration)
-3. *[High-Concurrency IoT Data Processing System — in progress]*
 
 ---
 
